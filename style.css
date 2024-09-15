@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-color: rgb(89, 157, 131);
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(52, 52, 52);
+    color: rgb(89, 157, 131);
+    padding: 1vh;
+    margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.personal-projects{
+    text-align: start;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    margin: 4vh;
+    padding-top: 5vh;
+}
+.about-me{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+.education-and-experience{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+.styled-button{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor:pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(52, 52, 52);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: auto;
+}
+.styled-button:hover{
+    background-color: rgb(67, 121, 101);
+}
+.styled-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: space-between;
+    max-width: 60vh;
+    text-align: center;
+    padding: 5vh;
+    margin: auto;
+
+  }
